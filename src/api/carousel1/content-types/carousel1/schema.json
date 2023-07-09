@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carousel1s",
+  "info": {
+    "singularName": "carousel1",
+    "pluralName": "carousel1s",
+    "displayName": "Carousel1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

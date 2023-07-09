@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_sliders",
+  "info": {
+    "singularName": "header-slider",
+    "pluralName": "header-sliders",
+    "displayName": "headerSlider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
