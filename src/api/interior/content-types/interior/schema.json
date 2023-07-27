@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "carousel1s",
+  "collectionName": "interiors",
   "info": {
-    "singularName": "carousel1",
-    "pluralName": "carousel1s",
-    "displayName": "Carousel1",
+    "singularName": "interior",
+    "pluralName": "interiors",
+    "displayName": "Interior",
     "description": ""
   },
   "options": {
@@ -14,14 +14,11 @@
   "attributes": {
     "image": {
       "type": "media",
-      "multiple": true,
-      "required": false,
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]
-    },
-    "title": {
-      "type": "string"
     }
   }
 }

@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "carousel1s",
+  "collectionName": "testimonials",
   "info": {
-    "singularName": "carousel1",
-    "pluralName": "carousel1s",
-    "displayName": "Carousel1",
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "testimonial",
     "description": ""
   },
   "options": {
@@ -12,6 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "content": {
+      "type": "text"
+    },
     "image": {
       "type": "media",
       "multiple": true,
@@ -20,7 +27,7 @@
         "images"
       ]
     },
-    "title": {
+    "name": {
       "type": "string"
     }
   }
